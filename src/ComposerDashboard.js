@@ -366,7 +366,8 @@ export default function ComposerDashboard() {
               <input
                 type="file"
                 accept="audio/*"
-                onChange={(e) => setEditAudioFile(e.target.files[0])}
+                onChange={(e) => setEditAudioFile(e.target
+                                onChange={(e) => setEditAudioFile(e.target.files[0])}
                 className="mt-1"
               />
             </label>
